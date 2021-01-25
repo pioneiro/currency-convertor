@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: purple;
+}
+
+.main {
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 25px;
+    border: 5px solid purple;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.convertForm {
+    margin: 10px 0;
+}
+
+input, select {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
+}
